@@ -1,0 +1,14 @@
+task_name: "Research and Summarize"
+
+# Optional: override the model for this task. If omitted, TaskAgent-Flow
+# defaults to "llama3" and falls back to "mistral" if llama3 isn't pulled.
+# model: "mistral"
+
+steps:
+  - id: 1
+    action: "Generate 3 potential titles for a blog post about Edge AI."
+    expected_output: "A list of 3 titles."
+
+  - id: 2
+    action: "Take the best title from step 1 and write a 2-sentence summary."
+    expected_output: "A short 2-sentence summary."
