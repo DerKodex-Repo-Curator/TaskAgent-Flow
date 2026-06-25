@@ -1,7 +1,7 @@
 task_name: "Research and Summarize"
 
 # Optional: override the model for this task. If omitted, TaskAgent-Flow
-# defaults to "llama3" and falls back to "mistral" if llama3 isn't pulled.
+# defaults to "llama3" and falls back to "mistral" if llama3 isn't working.
 # model: "mistral"
 
 steps:
